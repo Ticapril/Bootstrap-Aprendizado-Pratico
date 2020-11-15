@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8"/>
+            <title>Exemplo Prático de como Trabalhar com Bootstrap</title>
+            <!-- a utilização do arquivo min é para página não ficar muito pesada por que o arquivo tem um tamanho menor-->
+            <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    </head>
+<body>
+    <!-- barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- imagem da logo do site -->
+        <a class="navbar-brand" href="#">
+            <img src="img/bootstrap-solid.svg" width="30" height="30" alt="logo-bootstrap" loading="lazy"/>
+        </a>  
+            <!-- itens do menu -->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="navbar-item"><a class="nav-link" href="#quemsomos">Quem Somos</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+                </ul>
+            </div>
+       
+
+
+    </nav>
+
+    <section id="quemsomos">
+        <div class="container-xs pt-5 pb-5 bg-primary text-center text-white quem-somos">
+           <h3>Quem somos</h3>
+           <img class="rounded-circle" src="https://images.pexels.com/photos/5844317/pexels-photo-5844317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imagem de prédios" width="400" height="400">
+            <h3>Somos uma empresa gigantesca que abrange todos os setores do mercado econômico</h3>
+        </div> 
+    </section>
+
+    <section id="parceiros">
+        <div class="container-xs text-center pb-5 bg-success">
+            <h3 class="pt-5">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://images.pexels.com/photos/5014239/pexels-photo-5014239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" width="300" height="400">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://images.pexels.com/photos/4813942/pexels-photo-4813942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" width="300" height="400">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://images.pexels.com/photos/4734723/pexels-photo-4734723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" width="300" height="400">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center servicos">
+            <h3 class="pt-5">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="https://vignette.wikia.nocookie.net/sonicpokemon/images/7/77/Pikachu.png/revision/latest?cb=20200831092023" alt="" width="100%">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img src="https://vignette.wikia.nocookie.net/sonicpokemon/images/7/77/Pikachu.png/revision/latest?cb=20200831092023" alt=""  width="100%">
+                    </div>
+                </div>
+             </div>
+        </div>
+
+
+    </section>
+
+    <footer class="text-center bg-dark text-white pt-5 pb-5">
+    <h3>Desenvolvido por Fulano</h3>
+
+
+    </footer>
+
+
+
+
+</body>
+
+
+</html>
+
